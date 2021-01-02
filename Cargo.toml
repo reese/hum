@@ -1,0 +1,13 @@
+[package]
+name = "hum"
+version = "0.1.0"
+authors = ["Reese Williams <reese@reesew.io>"]
+edition = "2018"
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
