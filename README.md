@@ -1,4 +1,3 @@
-# Building Hum
+# Hum
 
-Hum requires a `rustup` target with no underlying operating system.
-To build, I'm generally using the `thumbv7em-none-eabihf` target, which can be added using `rustup target add thumbv7em-none-eabihf` and built with `cargo build --target thumbv7em-none-eabihf`. 
+`Hum` is an implementation of an operating system kernel based on [Philipp Opperman's Rust OS blog](https://os.phil-opp.com/).
